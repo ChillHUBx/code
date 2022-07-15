@@ -1,3 +1,5 @@
+
+wait(3)
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
 local HttpService = game:GetService("HttpService")
@@ -13,7 +15,7 @@ ContentProvider:PreloadAsync({"rbxassetid://3570695787", "rbxassetid://270889159
 local Library = {
     Theme = {
         MainColor = Color3.fromRGB(110, 153, 202),
-        BackgroundColor = Color3.fromRGB(22, 29, 50),
+        BackgroundColor = Color3.fromRGB(27, 42, 53),
         UIToggleKey = Enum.KeyCode.RightControl,
         TextFont = Enum.Font.SourceSansBold,
         EasingStyle = Enum.EasingStyle.Quart
